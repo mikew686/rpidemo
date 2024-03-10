@@ -1,5 +1,5 @@
 package sanity
 
 func Sanity() string {
-    return "Working!"
+	return "Working!"
 }
