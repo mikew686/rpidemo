@@ -1,3 +1,8 @@
+/*
+Sanity test to see that the repo is set up correctly.
+
+Uses an internal library, and prints a quote.
+*/
 package main
 
 import (
