@@ -1,3 +1,8 @@
+/*
+Experiment to control the Raspberry Pi through go-rpio.
+
+Blinks a light.
+*/
 package main
 
 import (

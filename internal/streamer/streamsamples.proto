@@ -1,0 +1,20 @@
+syntax = "proto3";
+option go_package = "./streamer";
+
+package streamer;
+
+service StreamSamples {
+    rpc SendSample(stream SampleRequest) returns (SampleResponse) {}
+}
+
+message SampleRequest {
+    uint64 timestamp = 1;
+    float light_level_percent = 2;
+    float temperature_celcius = 3;
+    float humidity_percent = 4;
+}
+
+message SampleResponse {
+    string status = 1;
+    string msg = 2;
+}

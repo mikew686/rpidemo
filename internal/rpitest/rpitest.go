@@ -1,3 +1,8 @@
+/*
+Rpi testing utilities.
+
+Utilities to perform various functions using go-rpio.
+*/
 package rpitest
 
 import (
